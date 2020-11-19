@@ -1,8 +1,10 @@
 import React from 'react';
 
+import './PhotosContainer.scss'
+
 const PhotosContainer: React.FC = () => {
     return (
-        <div>Photos Container</div>
+        <div className="zg-photos-container">Photos Container</div>
     )
 }
 
