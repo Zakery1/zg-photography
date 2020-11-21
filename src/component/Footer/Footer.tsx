@@ -1,9 +1,9 @@
-import React, { ReactElement } from 'react';
+import React from "react";
+
+import "./Footer.scss";
 
 const Footer: React.FC = () => {
-    return (
-        <div>Footer</div>
-    )
-}
+  return <div className="zg-footer">Footer</div>;
+};
 
 export default Footer;
